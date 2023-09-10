@@ -16,9 +16,8 @@ The most useful features:
 How to use
 ============
 
-Add dependency 
-
-```json lines
+Add dependency:
+```
 <dependency>
   <groupId>io.github.akaliutau</groupId>
   <artifactId>mapredux</artifactId>
