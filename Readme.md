@@ -47,8 +47,8 @@ List<Map<String, Object>> result = mr.reduce(records);
 Aggregated results will look like this:
 
 ```json lines
-{"country": "South Korea", "avg_age": 31.0, "hobbies": ["walking"], ",count": 1, "region": "Asia"}
-{"country": "Netherlands", "avg_age": 25.0, "hobbies": ["swimming"], ",count": 1, "region": "Europe"}
-{"country": "US", "avg_age": 26.0, "hobbies": ["spying", "reading"], ",count": 2, "region": "North America"}
+{"country": "South Korea", "avg_age": 31.0, "hobbies": ["walking"], "count": 1, "region": "Asia"}
+{"country": "Netherlands", "avg_age": 25.0, "hobbies": ["swimming"], "count": 1, "region": "Europe"}
+{"country": "US", "avg_age": 26.0, "hobbies": ["spying", "reading"], "count": 2, "region": "North America"}
 ```
 
