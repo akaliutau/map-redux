@@ -16,6 +16,15 @@ The most useful features:
 How to use
 ============
 
+Add dependency:
+```
+<dependency>
+  <groupId>io.github.akaliutau</groupId>
+  <artifactId>mapredux</artifactId>
+  <version>0.0.3</version>
+</dependency>
+```
+
 Consider the following input:
 
 ```json lines
@@ -52,3 +61,8 @@ Aggregated results will look like this:
 {"country": "US", "avg_age": 26.0, "hobbies": ["spying", "reading"], "count": 2, "region": "North America"}
 ```
 
+Further work
+============
+
+The current version is effectively a pre-release; full release will include more features and improvements in terms of 
+stability and performance
