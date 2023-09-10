@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>mapredux</groupId>
+    <groupId>io.github.akaliutau</groupId>
     <artifactId>mapredux</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
@@ -13,6 +13,14 @@
     <description>MapRedux is a lightweight library to aggregate data from Map-like data structures</description>
     <url>https://github.com/akaliutau/map-redux.git</url>
 
+    <developers>
+        <developer>
+            <id>akaliutau</id>
+            <name>Aliaksei Kaliutau</name>
+            <email>aliaksei.kaliutau@gmail.com</email>
+        </developer>
+    </developers>
+
     <licenses>
         <license>
             <name>MIT License, Version 1.0</name>
@@ -20,6 +28,12 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:akaliutau/map-redux.git</connection>
+        <developerConnection>scm:git:ssh://github.com:akaliutau/map-redux.git</developerConnection>
+        <url>https://github.com/akaliutau/map-redux/tree/main</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -73,5 +87,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
 
 </project>
